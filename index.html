@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    Portfolio
-</body>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="page-header">SmartHome</div>
+      <div class="page-description">
+        The Smart Home System is an IoT solution that enables users to control
+        and monitor home devices through a centralized web interface. Built with
+        React.js for the frontend and Flask/FastAPI for the backend, the system
+        manages real-time device communication via WebSockets and RESTful APIs.
+        User data, device configurations, and logs are stored in a PostgreSQL
+        database, while Raspberry Pi controllers act as intermediaries,
+        executing local automation and connecting to Arduino microcontrollers
+        that interface with sensors and actuators. This architecture ensures a
+        responsive, scalable, and user-friendly smart home management
+        experience.
+      </div>
+      <img
+        src="./static/images/smarthome_overview.png"
+        alt=""
+        class="smarthome-image__overview"
+      />
+    </div>
+  </body>
 </html>
